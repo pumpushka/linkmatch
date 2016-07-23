@@ -1,0 +1,221 @@
+.header {
+	background-color: rgba(22, 160, 133,1.0);
+	padding: 10px 0px 40px 0px;
+}
+
+
+.header_inner {
+	width: 95%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	margin: 0 auto;
+}
+
+.company_logo {
+	height: 29px; 
+}
+
+.header_icons_group {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ecf0f1;
+	padding-bottom: 3px;
+}
+.header_icons_group .icon-social:last-child {
+	padding-right: 0px;
+}
+
+
+.icon-social {
+	line-height: normal !important;
+	padding-right: 1.3em;
+}
+
+
+	  /*navigation*/
+
+.nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 1.1em;
+	padding-bottom: 3px;
+	padding-left: 27px;
+} 
+
+.nav_item{
+	padding-right: 1.6em;
+}
+
+.nav_item__link {
+	color: #ecf0f1;
+	border-radius: 4px;
+	padding: 8px 15px;
+}
+
+.nav_item__link:hover {
+	background-color: #1abc9c;
+}
+
+.slider-title {
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+} 
+
+.slider-title h1 {
+	font-size: 4.0em;
+	font-weight: 100;
+} 
+
+
+.slider {
+	width: 60%;
+	margin: 0 auto;
+
+}
+
+.ats-logos-cont {
+	width: 50%;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	margin: 0 auto;
+}
+
+.ats-logos-cont__logo {
+	padding-right: 30px; 
+}
+
+.ats-logos-cont .ats-logos-cont__logo:last-child {
+	padding-right: 0px;
+}
+
+
+
+.button {
+	max-width: 370px;
+	text-align: center;
+	font-size: 1.5em;
+	border-radius: 5px;
+	border: 2px solid;
+	margin: 0 auto;
+	padding: 18px 40px;
+  
+}
+
+.button-link {
+	color: #ecf0f1;
+} 
+
+.tips {
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.slider > * {
+	margin-top: 40px;
+}
+
+.row {
+	text-align: center;
+}
+
+.header_menu {
+  float: right;
+  width: 50px;
+  height: 50px;
+}
+
+.header_menu {
+  display: none;
+}
+
+@media screen and (max-width: 586px) {
+  .slider-title h1 {
+	font-size: 2.7em;
+  }
+
+  .tips {
+	font-size: 1.1em;
+  }
+
+  .slider-title {
+	padding-top: 50px;
+	margin: 0px;
+}
+
+  /*.button {
+	font-size: 1.5em;
+	padding: 10px 30px;
+  }*/
+}
+@media screen and (max-width: 958px) {
+	.slider {
+		width: 100%;
+		margin: 0px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+.ats-logos-cont {
+	width: 100%;
+ 	display: flex;
+	flex-direction: column;
+ 	margin: 0 auto;
+}
+
+.ats-logos-cont__logo {
+	padding: 15px; 
+}
+
+}
+
+
+@media screen and (max-width: 770px) {
+
+	.nav {
+	display: none;
+  }
+
+  .nav.open {
+  	z-index: 100;
+  	position: fixed;
+  	top: 0px;
+  	right: 0px;
+  	width: 300px;
+  	height: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	background-color: #2ecc71;
+ }
+  
+  .nav_item {
+    display: list-item;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .header_menu {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+  }
+
+  .header_menu svg {
+    width: 32px;
+    fill: #E0E0E0;
+  }
+
+  .header_icons_group {
+  	margin-left: 40px;
+  }
+
+  .overlay {
+  	position: fixed;
+  }
+}

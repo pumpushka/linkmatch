@@ -1,0 +1,30 @@
+.product_info {
+	width: 100%;
+	background-color: #ecf0f1;
+	color: black;
+	padding: 50px 0px;
+
+}
+
+.video-title {
+	width: 100%;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.title-h1 {
+	font-size: 2.3em;
+    font-weight: normal;
+}
+
+.title-p {
+	font-size: 1.3em;
+}
+
+.video {
+	width: 60%;
+	height: 650px;
+	background-color: grey;
+	margin: 0 auto;
+}
