@@ -106,6 +106,11 @@
   
 }
 
+.try_btn {
+	display: none;	
+
+}
+
 .button-link {
 	color: #ecf0f1;
 } 
@@ -149,7 +154,7 @@
 
   .button {
 	font-size: 1.5em;
-	padding: 10px 30px;
+	padding: 10px 20px;
   }
 }
 @media screen and (max-width: 958px) {
@@ -169,6 +174,21 @@
 
 .ats-logos-cont__logo {
 	padding: 15px; 
+} 
+
+.try_btn {
+	display: inline-block;
+	max-width: 370px;
+	text-align: center;
+	font-size: 1.5em;
+	border-radius: 5px;
+	border: 2px solid;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+
+.button {
+	display: none;
 }
 
 }
