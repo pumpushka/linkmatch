@@ -39,32 +39,7 @@
 	font-size: 1.1em;
 }
 
-.icon.rounded.big {
-	border-color: #ffffff;
-    font-size: 3.5em;
-    background-color: #ffffff;
-}
 
-.icon.rounded {
-    border-radius: 100%;
-    border: 1px solid #4dac71;
-    display: inline-block;
-    height: 2em;
-    line-height: 2em;
-    text-align: center;
-    /*width: 2em;*/
-   }
-
-.icon:before {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: none !important;
-    color: #e67e22;   
-
-}
 
 
 @media screen and (max-width: 1300px) {

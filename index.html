@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/main-idea.css">
 	<link rel="stylesheet" type="text/css" href="./css/footer.css">
     <link rel="stylesheet" type="text/css" href="./css/responsive.css">
+
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 </head>
 <body>
@@ -103,7 +104,7 @@
 			<div class="benefit-items">
 				<div class="benefit-item">
 					<p>
-						<i class="icon big rounded fa-clock-o"></i>
+						<i class="fa fa-clock-o fa-5x" aria-hidden="true"></i>
 					</p>
 					<h1 class="benefit-item-h1">
 						It’s simple
@@ -114,7 +115,7 @@
 				</div>
 				<div class="benefit-item">
 					<p>
-						<i class="icon big rounded fa-users"></i>
+						<i class="fa fa-users fa-5x" aria-hidden="true"></i>
 					</p>
 					<h1 class="benefit-item-h1">
 						It’s simple
@@ -125,7 +126,7 @@
 				</div>
 				<div class="benefit-item">
 					<p>
-						<i class="icon big rounded fa-usd"></i>
+						<i class="fa fa-usd fa-5x" aria-hidden="true"></i>
 					</p>
 					<h1 class="benefit-item-h1">
 						It’s simple
@@ -148,23 +149,7 @@
 		
 	</div>
 	<div class="overlay"></div>	
-	<script>
-      /*
-       * Open the drawer when the menu ison is clicked.
-       */
-      var menu = document.querySelector('#menu');
-      var main = document.querySelector('main');
-      var navigation = document.querySelector('.nav');
-
-      menu.addEventListener('click', function(e) {
-        navigation.classList.toggle('open');
-        e.stopPropagation();
-      });
-      
-      main.addEventListener('click', function() {
-        navigation.classList.remove('open');
-      });
-
-    </script>	
+	
 </body>
+ <script type="text/javascript" src="./js/script.js"></script>
 </html>
