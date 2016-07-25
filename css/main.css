@@ -38,7 +38,8 @@ a {
 
 .top-container {
   width: 100%;
-  min-width: 350px;
+  /*min-width: 350px;*/
+  /*max-width: 1100px;*/
 }
 
 

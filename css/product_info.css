@@ -14,18 +14,51 @@
 	margin-bottom: 40px;
 }
 
-.title-h1 {
+.video-title_main {
 	font-size: 2.3em;
     font-weight: normal;
 }
 
-.title-p {
+.video-title_submain {
 	font-size: 1.3em;
 }
 
-.video {
+.video-cont {
 	width: 60%;
-	height: 650px;
-	background-color: grey;
-	margin: 0 auto;
+    margin: 0px auto;
 }
+	/*these makes youtube video responsive --start*/
+
+.video {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video iframe, .video object, .video embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+	/*these makes youtube video responsive --end*/
+
+
+
+@media screen and (max-width: 750px) {
+	.video-title {
+		margin-bottom: 25px;
+	}
+
+	.video-title_main {
+		font-size: 2.0em;
+		margin-bottom: 20px;
+	}
+
+	.video-title_submain {
+		font-size: 1.0em;
+	}
+}	 
