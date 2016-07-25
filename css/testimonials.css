@@ -116,3 +116,13 @@
     line-height: 1.4;
 	}
 }
+
+
+@media screen and (max-width: 1000px) {
+	.testim-items {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	}
+}
