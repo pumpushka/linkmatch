@@ -69,12 +69,13 @@
 }
 
 .copyright-item {
-	padding:0px 20px;
+	padding-right: 20px;
 	border-right: 2px solid #ecf0f1;
 }
 
 .copyrights .copyright-item:last-child {
 	border-right: none;
+	padding-right: 0px;
 }
 
 
@@ -101,4 +102,32 @@
     font-weight: normal;
     word-spacing: 8px;
 }
+}
+
+
+@media screen and (max-width: 500px) {
+
+.contact-items {
+	padding-bottom: 30px;
+}
+
+.contact-title_main {
+	font-size: 1.6em;
+    font-weight: normal;
+    word-spacing: 8px;
+} 
+
+.contact-item {
+	padding-right: 15px;
+}
+
+.copyrights {
+	font-size: 0.7em;
+}
+
+.copyright-item {
+	padding-right: 10px;
+}
+
+
 }
