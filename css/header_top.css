@@ -1,0 +1,32 @@
+.header_top {
+	width: 100%;
+	/*z-index: 101;
+	position: fixed;
+    top: -70px;*/
+    background-color:  #ecf0f1;
+    
+}
+.header_top.sticky {
+	top:0px;
+}
+
+.bar {
+	padding: 20px 15px;
+}
+
+.header_top_logo {
+
+}
+
+.company_logo {
+	height: 29px; 
+}
+
+.header_top_menu {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    color: #7f8c8d;
+    padding-right: 10px;
+}

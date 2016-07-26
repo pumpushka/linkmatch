@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>LinkMatch</title>
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/header_top.css">
 	<link rel="stylesheet" type="text/css" href="./css/header.css">
 	<link rel="stylesheet" type="text/css" href="./css/product_info.css">
 	<link rel="stylesheet" type="text/css" href="./css/choose.css">
@@ -18,16 +19,25 @@
 </head>
 <body>
 	<div class="top-container">
-
+		<div id="share-nav" class="header_top">
+			<div class="bar">
+				<div class="header_top_logo">
+						<img  class="company_logo" src="./image/linkmatch-logo-b.png" alt="LinkMatch">
+				</div>
+				<a class="header_top_menu">
+	            		<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+	          	</a>
+	        </div>  	
+		</div>	
 		<header class="box header">
 			<div class="header_inner">
 				<div class="header_logo">
 					<img  class="company_logo" src="./image/linkmatch-logo-w.png" alt="LinkMatch">
 				</div>
 			    <div class="nav">   
-			         <div class="nav_item"><a class="nav_item__link" href="#">Product</a></div>
-			         <div class="nav_item"><a class="nav_item__link"  href="#">Benefits</a></div>
-			         <div class="nav_item"><a class="nav_item__link" href="#">Testimonials</a></div>
+			         <div class="nav_item"><a class="nav_item__link" href="#product">Product</a></div>
+			         <div class="nav_item"><a class="nav_item__link"  href="#benefits">Benefits</a></div>
+			         <div class="nav_item"><a class="nav_item__link" href="#testimonials">Testimonials</a></div>
 			    </div>   
 				<div class="header_icons_group">
 					<i class="fa fa-facebook-square fa-lg icon-social" aria-hidden="true"></i>
@@ -66,7 +76,7 @@
 			</div>    
 		</header>
 
-		<section class="product_info">
+		<section id="product" class="product_info">
 			<div class="video-title">
 				<h1 class="video-title_main"> Watch the video</h1>
 				<p class="video-title_submain">The best app for integrating you ATS with LinkedIn</p>
@@ -99,7 +109,7 @@
 				    </div>
 				</div> 
 		</section>
-		<section class="benefits">
+		<section id="benefits" class="benefits">
 			<div class="benefit-title">
 				<h1 class="benefit-title_main">Benefits</h1>
 			</div>
@@ -140,7 +150,7 @@
 			</div>
 		</section>
 
-		<section class="testimonials">
+		<section id="testimonials" class="testimonials">
 			<div class="testim-title">
 				<h1 class="testim-title_main">Testimonials</h1>
 				<p class="testim-title_submain">What our happy customers say</p>
@@ -238,7 +248,27 @@
 		
 		
 	</div>
-
+	<div class="side-menu">
+		<div class="wrap">
+			<dir class="menu-close">
+				<a class="menu-close_link" href="">
+				</a>
+			</dir>
+			<div id="navigation" class="navigation">
+				<ul class="side-menu-items">
+					<li class="side-menu-item">
+						<a class="side-menu-item_link" href="#product">Product</a>
+					</li>
+					<li class="side-menu-item">
+						<a class="side-menu-item_link" href="#benefits">Benefits</a>
+					</li>
+					<li class="side-menu-item">
+						<a class="side-menu-item_link" href="#testimonials">Testimonials</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 	
 </body>
  <script type="text/javascript" src="./js/script.js"></script>
