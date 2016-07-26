@@ -129,11 +129,11 @@
 	text-align: center;
 }
 
-.header_menu {
+/*.header_menu {
 	float: right;
 	width: 50px;
 	height: 50px;
-}
+}*/
 
 .header_menu {
   	display: none;
@@ -183,10 +183,10 @@
     padding-right: 10px;
 }
 
-.header_menu svg {
+/*.header_menu svg {
     width: 32px;
     fill: #E0E0E0;
-}
+}*/
 
 .header_icons_group {
   	margin-left: 40px;
