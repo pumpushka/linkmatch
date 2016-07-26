@@ -1,41 +1,42 @@
 .header_menu {
-  	display: none;
+	display: none;
 }
 
 
 		/*side-menu*/
 
 .side-menu {
-    z-index: 1010;
-    position: fixed;
-    top: 0;
-    right: -320px;
-    background: #00A388;
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.6);
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,.6);
-    box-shadow: 0 0 10px rgba(0,0,0,.6);
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    -o-transition: all .2s;
-    transition: all .2s;
-    width: 300px;
-    height: 100%;
-    overflow: auto;
+	z-index: 1010;
+	position: fixed;
+	top: 0;
+	right: -320px;
+	background: #00A388;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.6);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.6);
+	box-shadow: 0 0 10px rgba(0,0,0,.6);
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+	width: 300px;
+	height: 100%;
+	overflow: auto;
 }
 
-.menu-close_link {
+.menu-close_btn {
+	cursor : pointer;
 	width: 34px;
-    height: 34px;
-    position: absolute;
-    background: url(../image/close.svg);
-    background-repeat: no-repeat;
-    top: 20px;
-    right: 20px;
-    z-index: 10;
-    -webkit-transition: opacity .4s;
-    -moz-transition: opacity .4s;
-    -o-transition: opacity .4s;
-    transition: opacity .4s;
+	height: 34px;
+	position: absolute;
+	background: url(../image/close.svg);
+	background-repeat: no-repeat;
+	top: 20px;
+	right: 20px;
+	z-index: 10;
+	-webkit-transition: opacity .4s;
+	-moz-transition: opacity .4s;
+	-o-transition: opacity .4s;
+	transition: opacity .4s;
 }
 
 .wrap {
@@ -48,35 +49,39 @@
 
 .side-menu-items {
 	margin: 0;
-    padding: 0;
-    list-style-type: none;
+	padding: 0;
+	list-style-type: none;
 }
 
 .side-menu-item_link {
-    display: block;
-    padding: 8px 0;
-    border-bottom: 1px solid rgba(255,255,255,.5);
-    color: #fff;
+	display: block;
+	padding: 8px 0;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+	color: #fff;
 }
 
 .visible {
-    right: 0;
+	right: 0;
+}
+
+.hidden {
+	right: -320px;
 }
 
 
 @media screen and (max-width: 770px) {
-.nav {
-    display: none;
-}
+	.nav {
+		display: none;
+	}
 
 
 
-.header_menu {
-    display: inline-block;
-    position: absolute;
-    top: 10px;
-    right: 0;
-    padding-right: 10px;
-}
+	.header_menu {
+		display: inline-block;
+		position: absolute;
+		top: 10px;
+		right: 0;
+		padding-right: 10px;
+	}
 
 }

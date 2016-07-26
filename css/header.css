@@ -88,7 +88,7 @@
 }
 
 .ats-logos-cont {
-	width: 50%;
+	width: 100%;
  	display: flex;
  	justify-content: space-around;
  	align-items: center;
@@ -145,6 +145,10 @@
 	width: 100%;
 }
 
+.ats-logos-cont {
+	width: 70px;
+}
+
 	
 .intro-title-main {
 	font-size: 3.2em;
@@ -152,19 +156,14 @@
 }
 
 
-@media screen and (max-width: 958px) {
+@media screen and (max-width: 1150px) {
 .intro {
 	width: 100%;
 	margin: 0px;
 }
 
-.intro-title {
-	padding-top: 70px;
-	margin: 0px;
-}
-
 .header-top-cont {
-	width: 70%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 }
@@ -189,7 +188,7 @@
 @media screen and (max-width: 596px) {
 
 .intro > * {
-	margin-top: 25px;
+	padding-bottom: 20px;
 }
 
 .intro-title-main {
@@ -225,8 +224,12 @@
 	width: 100%;
 }
 
+.header-top-cont {
+	padding-top: 20px;
+}
+
 .intro > * {
-	margin-top: 25px;
+	margin-top: 20px;
 }	
 
 .intro-title-main {

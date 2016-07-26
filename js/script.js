@@ -2,7 +2,7 @@
 var menu = document.querySelector('#menu');
 var bar_menu = document.querySelector('.bar-menu');
 var navigation = document.querySelector('.side-menu');
-var menu_close = document.querySelector('.menu-close_link');
+var menu_close = document.querySelector('.menu-close_btn');
 
 function showMenu(e) {
   navigation.classList.toggle('visible');
