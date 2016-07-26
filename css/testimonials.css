@@ -126,3 +126,13 @@
 	margin: 0 auto;
 	}
 }
+
+
+@media screen and (max-width: 500px) {
+	.testim-items {
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	}
+}

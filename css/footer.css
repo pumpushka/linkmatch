@@ -70,6 +70,7 @@
 
 .copyright-item {
 	padding-right: 20px;
+	padding-left: 10px;
 	border-right: 2px solid #ecf0f1;
 }
 
@@ -112,9 +113,9 @@
 }
 
 .contact-title_main {
-	font-size: 1.6em;
+	font-size: 1.5em;
     font-weight: normal;
-    word-spacing: 8px;
+    word-spacing: 7px;
 } 
 
 .contact-item {
