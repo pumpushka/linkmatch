@@ -1,20 +1,20 @@
-.header_top {
+.bar {
 	width: 100%;
-	/*z-index: 101;
+	z-index: 101;
 	position: fixed;
-    top: -70px;*/
+    top: -70px;
     background-color:  #ecf0f1;
     
 }
-.header_top.sticky {
+.bar.sticky {
 	top:0px;
 }
 
-.bar {
+.bar-inner {
 	padding: 20px 15px;
 }
 
-.header_top_logo {
+.bar_logo {
 
 }
 
@@ -22,7 +22,7 @@
 	height: 29px; 
 }
 
-.header_top_menu {
+.bar-menu {
     display: inline-block;
     position: absolute;
     top: 20px;
