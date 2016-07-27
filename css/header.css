@@ -1,5 +1,5 @@
 .header {
-	background-color: rgba(22, 160, 133,1.0);
+	background-color: #00a388;
 	padding: 10px 0px 50px 0px;
 }
 
@@ -22,6 +22,8 @@
 	justify-content: center;
 	color: #ecf0f1;
 	padding-bottom: 3px;
+	margin: 0 auto;
+    margin-right: 0px;
 }
 .header_icons_group .icon-social:last-child {
 	padding-right: 0px;
@@ -40,9 +42,10 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	font-size: 1.1em;
+	font-size: 1.0em;
+	font-weight: 100;
 	padding-bottom: 3px;
-	padding-left: 27px;
+	padding-left: 60px;
 } 
 
 .nav_item{
@@ -66,7 +69,13 @@
 	justify-content: space-around;
 	align-items: center;
 	margin: 0px auto;
-	padding-top: 50px;
+	padding-top: 65px;
+}
+
+.intro {
+	background-color: rgba(255,255,255,.05);
+	box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
+	padding: 20px; 
 }
 
 .intro > * {
@@ -79,7 +88,7 @@
 } 
 
 .intro-title-main {
-	font-size: 4.0em;
+	font-size: 3.5em;
 	font-weight: 100;
 } 
 
@@ -126,7 +135,8 @@
 } 
 
 .tips {
-	font-size: 1.4em;
+	font-size: 1.1em;
+	font-weight: 100;
 	text-align: center;
 }
 
@@ -156,7 +166,7 @@
 }
 
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1280px) {
 .intro {
 	width: 100%;
 	margin: 0px;

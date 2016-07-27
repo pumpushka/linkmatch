@@ -48,6 +48,7 @@
     line-height: 1.7;
     border-left: 8px solid #27b399;
     min-height: 120px;
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
 }
 
 .testim-item-top:before {
