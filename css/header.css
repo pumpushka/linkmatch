@@ -147,7 +147,9 @@
 }
 
 
-
+.linkmatch-working-gif {
+	border-radius: 3px;
+}
 
 
 @media screen and (max-width: 1500px) {
