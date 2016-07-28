@@ -93,7 +93,11 @@
 } 
 
 .linkedin-anim {
-	/*padding-top: 100px;*/
+	width: 720px;
+    height: 481px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ats-logos-cont {
