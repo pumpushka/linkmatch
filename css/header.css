@@ -114,11 +114,11 @@
  	margin: 0 auto;
 }
 
-.ats-logos-cont_logo {
+.ats-logos-cont-logo {
 	padding-right: 30px; 
 }
 
-.ats-logos-cont .ats-logos-cont_logo:last-child {
+.ats-logos-cont .ats-logos-cont-logo:last-child {
 	padding-right: 0px;
 }
 
