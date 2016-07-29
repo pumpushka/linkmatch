@@ -4,7 +4,7 @@
 }
 
 
-.header_inner {
+.header-inner {
 	width: 95%;
 	display: flex;
 	justify-content: flex-start;
@@ -12,11 +12,11 @@
 	margin: 0 auto;
 }
 
-.company_logo {
+.company-logo {
 	height: 29px; 
 }
 
-.header_icons_group {
+.header-icons-group {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -25,7 +25,7 @@
 	margin: 0 auto;
     margin-right: 0px;
 }
-.header_icons_group .icon-social:last-child {
+.header-icons-group .icon-social:last-child {
 	padding-right: 0px;
 }
 
@@ -43,15 +43,16 @@
 	align-items: center;
 	font-size: 1.0em;
 	font-weight: 100;
+	letter-spacing: 1px;
 	padding-bottom: 3px;
 	padding-left: 60px;
 } 
 
-.nav_item{
+.nav-item{
 	padding-right: 1.6em;
 }
 
-.nav_item__link {
+.nav-item_link {
 	color: #fff;
     background: 0 0;
     padding: 6px 15px;
@@ -61,7 +62,7 @@
     transition: .4s;
 }
 
-.nav_item__link:hover {
+.nav-item_link:hover {
 	background: rgba(0,0,0,.3);
     color: #fc7346;
     box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
@@ -93,7 +94,7 @@
 } 
 
 .intro-title-main {
-	font-size: 3.3em;
+	font-size: 3.1em;
 	font-weight: inherit;
 } 
 
@@ -113,11 +114,11 @@
  	margin: 0 auto;
 }
 
-.ats-logos-cont__logo {
+.ats-logos-cont_logo {
 	padding-right: 30px; 
 }
 
-.ats-logos-cont .ats-logos-cont__logo:last-child {
+.ats-logos-cont .ats-logos-cont_logo:last-child {
 	padding-right: 0px;
 }
 
@@ -139,7 +140,7 @@
 
 }
 
-.button-link {
+.button_link {
 	color: #ecf0f1;
 } 
 
@@ -161,6 +162,13 @@
 }
 
 
+@media screen and (max-width: 1690px) {
+.header-top-cont {
+	width: 90%;
+}
+
+}
+
 @media screen and (max-width: 1500px) {
 .header-top-cont {
 	width: 100%;
@@ -171,7 +179,7 @@
 }
 
 	
-.intro-title-main {
+.intro-title_main {
 	font-size: 3.2em;
 }
 }
@@ -199,9 +207,9 @@
 	width: 90%;
 }	
 
-.header_icons_group {
+.header-icons-group {
   	margin-left: 40px;
-  }
+}
 
 .nav {
 	display: none;
@@ -213,24 +221,24 @@
 
 
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 640px) {
 
 
 .intro > * {
 	padding-bottom: 20px;
 }
 
-.intro-title-main {
+.intro-title_main {
 	font-size: 2.7em;
-  }
+}
 
-.intro-title-submain {
+.intro-title_submain {
   	font-size: 2.4em;
-  }
+}
 
 .tips {
 	font-size: 1.1em;
-  }
+}
 
 .intro-title {
 	margin: 0px;
@@ -239,7 +247,7 @@
 .button {
 	font-size: 1.5em;
 	padding: 10px 20px;
-  }
+}
 
 .linkmatch-working-gif img {
 	max-width: 100%;
@@ -247,8 +255,8 @@
 }
 
 
-@media screen and (max-width: 550px) {
-.header_inner {
+@media screen and (max-width: 600px) {
+.header-inner {
 	width: 100%;
 }
 
@@ -262,11 +270,12 @@
 
 .intro-title-main {
 	font-size: 2.2em;
-  }
+	padding-top: 20px;
+ }
 
 .intro-title-submain {
   	font-size: 2.0em;
-  } 
+ } 
 
 
 .ats-logos-cont {
@@ -276,7 +285,7 @@
  	margin: 0 auto;
 }
 
-.ats-logos-cont__logo {
+.ats-logos-cont-logo {
 	padding: 10px; 
 } 
 
@@ -295,7 +304,7 @@
 	display: none;
 }
 
-.header_icons_group {
+.header-icons-group {
 	position: fixed;
 	top: 80px;
 	right: 0px;

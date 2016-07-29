@@ -3,7 +3,7 @@ var bar_menu = document.querySelector('.bar-menu');
 var top_nav = document.querySelector('#share-nav');
 
 var navigation = document.querySelector('.side-menu');
-var menu_close = document.querySelector('.menu-close_btn');
+var side_menu_close = document.querySelector('.side-menu-close_btn');
 var shadow = document.querySelector('.shadow');
 var side_menu_items = document.querySelector('.side-menu-items')
 
@@ -20,7 +20,7 @@ function hideMenu(e) {
   enableScroll();
 }
 
-menu_close.addEventListener('click', hideMenu);
+side_menu_close.addEventListener('click', hideMenu);
 shadow.addEventListener('click', hideMenu);
 side_menu_items.addEventListener('click', hideMenu);
 
