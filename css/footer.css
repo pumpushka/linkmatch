@@ -116,7 +116,7 @@
 }
 
 .copyrights {
-	padding-left: 100px;
+	padding-left: 20px;
 }
 
 .contact-items {
@@ -127,16 +127,22 @@
 
 .contact-item {
 	padding-top: 15px;
-	padding-left: 15px;
+	padding-left: 10px;
+}
+
+.contact-title_submain2 {
+	margin-top: 35px;
+}
+
+.contact-title_link {
+	color: #e74c3c;
+    letter-spacing: 7px;
+    font-size: 1.4em;
 }
 }
 
 
 @media screen and (max-width: 500px) {
-
-/*.contact-items {
-	padding-bottom: 30px;
-}*/
 
 .contact-title_main {
 	font-size: 1.5em;
@@ -144,9 +150,11 @@
     word-spacing: 7px;
 } 
 
-/*.contact-item {
-	padding-right: 15px;
-}*/
+.contact-title_link {
+	color: #e74c3c;
+    letter-spacing: 6px;
+    font-size: 1.1em;
+}
 
 .copyrights {
 	font-size: 0.7em;

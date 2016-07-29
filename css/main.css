@@ -62,3 +62,10 @@ a {
 .shadow-hidden {
 	display: none;
 }
+
+@media screen and (min-width: 3000px) {
+.top-container {
+  	width: 80%;
+  	margin: 0px auto;
+}
+}

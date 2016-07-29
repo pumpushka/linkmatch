@@ -93,8 +93,8 @@
 } 
 
 .intro-title-main {
-	font-size: 3.5em;
-	font-weight: 100;
+	font-size: 3.3em;
+	font-weight: inherit;
 } 
 
 .linkedin-anim {
@@ -145,7 +145,7 @@
 
 .tips {
 	font-size: 1.1em;
-	font-weight: 100;
+	font-weight: 300;
 	text-align: center;
 }
 
@@ -301,13 +301,13 @@
 	right: 0px;
 	display: flex;
 	flex-direction: column;
+	color: #f69321;
 	
 }
 
 .icon-social {
 	margin-bottom: 10px;
 	padding-right: 0px;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 }
