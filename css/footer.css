@@ -32,7 +32,8 @@
 
 .contact-title_link {
 	color: #e74c3c;
-	letter-spacing: 5px;
+    letter-spacing: 8px;
+    font-size: 1.8em;
 }
 
 .contact-cont-bottom {
@@ -106,11 +107,36 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 620px) {
+.contact-cont-bottom {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.copyrights {
+	padding-left: 100px;
+}
 
 .contact-items {
-	padding-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	
 }
+
+.contact-item {
+	padding-top: 15px;
+	padding-left: 15px;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+
+/*.contact-items {
+	padding-bottom: 30px;
+}*/
 
 .contact-title_main {
 	font-size: 1.5em;
@@ -118,9 +144,9 @@
     word-spacing: 7px;
 } 
 
-.contact-item {
+/*.contact-item {
 	padding-right: 15px;
-}
+}*/
 
 .copyrights {
 	font-size: 0.7em;

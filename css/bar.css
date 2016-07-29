@@ -2,10 +2,11 @@
 	width: 100%;
 	z-index: 101;
 	position: fixed;
-    top: -70px;
     background-color:  #ecf0f1;
-    
+    top : -75px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
+
 .bar.sticky {
 	top:0px;
 }
@@ -14,9 +15,7 @@
 	padding: 20px 15px;
 }
 
-.bar_logo {
 
-}
 
 .company_logo {
 	height: 29px; 
@@ -29,4 +28,14 @@
     right: 0;
     color: #7f8c8d;
     padding-right: 10px;
+}
+
+.nav_down {
+    top : 0px;
+    transition: .5s;
+}
+
+.nav_up {
+    top : -75px;
+    transition: .5s;
 }
