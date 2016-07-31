@@ -1,8 +1,12 @@
 .header {
 	background-color: #00a388;
-	padding: 10px 0px 50px 0px;
+	padding: 20px 0px 170px 0px;
 }
 
+.header_terms {
+	background-color: #00a388;
+	padding: 20px 0px 30px 0px;
+}
 
 .header-inner {
 	width: 95%;
@@ -49,7 +53,7 @@
 } 
 
 .nav-item{
-	padding-right: 1.6em;
+	padding-right: 1.1em;
 }
 
 .nav-item_link {
@@ -99,8 +103,7 @@
 } 
 
 .linkedin-anim {
-	width: 720px;
-    height: 481px;
+	max-width: 720px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,24 +127,28 @@
 
 
 
-.button {
-	max-width: 370px;
-	text-align: center;
-	font-size: 1.5em;
-	border-radius: 5px;
-	border: 2px solid;
-	margin: 0 auto;
-	padding: 18px 40px;
+.button_link{
+    color: white;  
+}
+
+.button_link:hover {
+    color: #f69321 !important;
+    background-color: white;
   
 }
 
-.try_btn {
-	display: none;	
 
-}
 
 .button_link {
-	color: #ecf0f1;
+	max-width: 370px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 18px 34px;
+    color: white;
+    background-color: #f69321;
+    transition: 0.7s;
 } 
 
 .tips {
@@ -159,165 +166,166 @@
 
 .linkmatch-working-gif {
 	border-radius: 3px;
+	width: 100%;
 }
 
 
 @media screen and (max-width: 1690px) {
-.header-top-cont {
-	width: 90%;
-}
+	.header-top-cont {
+		width: 90%;
+	}
 
 }
 
 @media screen and (max-width: 1500px) {
-.header-top-cont {
-	width: 100%;
-}
+	.header-top-cont {
+		width: 100%;
+	}
 
-.ats-logos-cont {
-	width: 70px;
-}
+	.ats-logos-cont {
+		width: 70px;
+	}
 
 	
 .intro-title_main {
 	font-size: 3.2em;
-}
+	}
 }
 
 
 @media screen and (max-width: 1280px) {
-.intro {
-	width: 80%;
-	margin: 0px;
+	.intro {
+		width: 80%;
+		margin: 0px;
+	}
+
+	.header-top-cont {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin: 0px auto;
+	}
+
+	.linkedin-anim {
+		margin-top: 20px;
+	}
+
 }
 
-.header-top-cont {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	margin: 0px auto;
+
+@media screen and (max-width: 1070px) {
+	
+	.header-icons-group {
+		position: fixed;
+		top: 80px;
+		right: 0px;
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	.icon-social {
+		margin-bottom: 10px;
+		padding-right: 0px;
+	}	
 }
 
 
+
+
+@media screen and (max-width: 910px) {
+	.nav {
+	display: none;
+	}
 }
+
 
 @media screen and (max-width: 770px) {
 
-.intro {
-	width: 90%;
-}	
+	.intro {
+		width: 90%;
+	}	
 
-.header-icons-group {
-  	margin-left: 40px;
-}
+	.header-icons-group {
+	  	margin-left: 40px;
+	}
 
-.nav {
-	display: none;
-}
 
 }
-
-
-
 
 
 @media screen and (max-width: 640px) {
 
 
-.intro > * {
-	padding-bottom: 20px;
-}
+	.intro > * {
+		padding-bottom: 20px;
+	}
 
-.intro-title_main {
-	font-size: 2.7em;
-}
+	.intro-title_main {
+		font-size: 2.7em;
+	}
 
-.intro-title_submain {
-  	font-size: 2.4em;
-}
+	.intro-title_submain {
+	  	font-size: 2.4em;
+	}
 
-.tips {
-	font-size: 1.1em;
-}
+	.tips {
+		font-size: 1.1em;
+	}
 
-.intro-title {
-	margin: 0px;
-}
+	.intro-title {
+		margin: 0px;
+	}
 
-.button {
-	font-size: 1.5em;
-	padding: 10px 20px;
-}
+	.button_link {
+		font-size: 1.5em;
+		padding: 10px 20px;
+	}
 
-.linkmatch-working-gif img {
-	max-width: 100%;
-}
+	.linkmatch-working-gif img {
+		max-width: 100%;
+	}
 }
 
 
 @media screen and (max-width: 600px) {
-.header-inner {
-	width: 100%;
-}
+	.header-inner {
+		width: 100%;
+	}
 
-.header-top-cont {
-	padding-top: 20px;
-}
+	.header-top-cont {
+		padding-top: 20px;
+	}
 
-.intro {
-	padding: 0px;
-}
+	.intro {
+		padding: 0px;
+	}
 
-.intro-title-main {
-	font-size: 2.2em;
-	padding-top: 20px;
- }
+	.intro-title-main {
+		font-size: 2.2em;
+		padding-top: 20px;
+	 }
 
-.intro-title-submain {
-  	font-size: 2.0em;
- } 
+	.intro-title-submain {
+	  	font-size: 2.0em;
+	 } 
 
 
-.ats-logos-cont {
-	width: 100%;
- 	display: flex;
-	flex-direction: column;
- 	margin: 0 auto;
-}
+	.ats-logos-cont {
+		width: 100%;
+	 	display: flex;
+		flex-direction: column;
+	 	margin: 0 auto;
+	}
 
-.ats-logos-cont-logo {
-	padding: 10px; 
-} 
+	.ats-logos-cont-logo {
+		padding: 10px; 
+	} 
 
-.try_btn {
-	display: inline-block;
-	max-width: 370px;
-	text-align: center;
-	font-size: 1.5em;
-	border-radius: 5px;
-	border: 2px solid;
-	margin: 0 auto;
-	padding: 10px 20px;
-}
+	.lm-try-btn {
+		display: none;	
 
-.button {
-	display: none;
-}
-
-.header-icons-group {
-	position: fixed;
-	top: 80px;
-	right: 0px;
-	display: flex;
-	flex-direction: column;
-	color: #f69321;
-	
-}
-
-.icon-social {
-	margin-bottom: 10px;
-	padding-right: 0px;
-}
+	}
 
 }
 

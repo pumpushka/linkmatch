@@ -1,0 +1,11 @@
+.terms-main {
+	width: 100%;
+	font-family: Roboto;
+	color: #7f8c8d;
+	font-weight: normal;
+	padding: 70px 70px;
+}
+
+p {
+	text-align: justify;
+}

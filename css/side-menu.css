@@ -69,18 +69,12 @@
 }
 
 
-@media screen and (max-width: 770px) {
-
-.nav {
-	display: none;
-}
-
-
+@media screen and (max-width: 910px) {
 
 .header_menu {
 	display: inline-block;
 	position: absolute;
-	top: 10px;
+	top: 20px;
 	right: 0;
 	padding-right: 10px;
 }
