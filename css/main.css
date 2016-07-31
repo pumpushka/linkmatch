@@ -6,9 +6,9 @@ body, html, main {
 }
 
 body {
-	font-family: Roboto;
+	font-family: Museo;
 	color: #ecf0f1;
-	font-weight: normal;
+	font-weight: 300;
 }
 
 h1, h2, h3, h4, h5 {
@@ -28,6 +28,17 @@ ul {
 a {
 	text-decoration: none;
 }
+
+@font-face {
+	font-family: Museo;
+	src: url("../fonts/Museo.otf") format("opentype"),
+		 url("../fonts/Museo-0.otf") format("opentype"),
+		 url("../fonts/Museo-1.otf") format("opentype"),
+		 url("../fonts/Museo-2.otf") format("opentype"),
+		 url("../fonts/Museo-3.otf") format("opentype");
+
+}
+
 
 .top-container {
   	width: 100%;
@@ -53,6 +64,19 @@ a {
 
 .shadow-hidden {
 	display: none;
+}
+
+
+body::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #d6dadc;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #c4c9cc;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
 
 @media screen and (min-width: 3000px) {

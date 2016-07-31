@@ -1,11 +1,25 @@
 .terms-main {
 	width: 100%;
 	font-family: Roboto;
-	color: #7f8c8d;
+	background-color: #ecf0f1;
+	color: #444;
 	font-weight: normal;
 	padding: 70px 70px;
 }
 
 p {
 	text-align: justify;
+	line-height: 1.5em;
+    word-spacing: 3px;
+    font-size: 18px;
+    text-indent: 30px;
 }
+
+ul {
+    list-style: disc;
+    padding-left: 1em;
+    font-size: 18px;
+    line-height: 1.6em;
+    word-spacing: 3px;
+}
+
