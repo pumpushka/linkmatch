@@ -23,6 +23,8 @@
 
 .bar-menu {
     display: inline-block;
+    cursor: hand;
+    cursor: pointer;
     position: absolute;
     top: 20px;
     right: 0;

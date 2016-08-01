@@ -21,14 +21,12 @@
 }
 
 .contact-title_submain {
-	font-size: 1.0em;
+	font-size: 1.1em;
 	font-weight: normal;
 	font-style: italic;
+	margin-top: 65px;
 }
 
-.contact-title_submain2 {
-	margin-top: 50px;
-}
 
 .contact-title_link {
 	color: #e74c3c;

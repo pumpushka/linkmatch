@@ -23,3 +23,12 @@ ul {
     word-spacing: 3px;
 }
 
+
+
+@media screen and (max-width: 550px) {
+	.terms-main {
+		font-weight: normal;
+		padding: 70px 15px;
+	}
+}
+

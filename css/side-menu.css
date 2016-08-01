@@ -1,5 +1,7 @@
 .header_menu {
 	display: none;
+	cursor: pointer;
+	cursor : hand;
 }
 
 
@@ -25,6 +27,7 @@
 
 .side-menu-close_btn {
 	cursor : pointer;
+	cursor: hand;
 	width: 34px;
 	height: 34px;
 	position: absolute;

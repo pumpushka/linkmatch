@@ -1,6 +1,6 @@
 .benefits {
 	background-color: #4a4a4a;
-	padding: 150px 0px;
+	padding: 120px 0px;
 }
 
 .benefit-title {
@@ -117,5 +117,10 @@
 
 	.benefit-item .fa {
 		font-size: 55px;
+	}
+
+	.padd {
+		padding-top: 80px;
+		padding-bottom: 80px;
 	}
 }
