@@ -72,8 +72,8 @@
 
 
 .ats-item {
-	max-width: 280px;
-	min-width: 280px;
+	max-width: 350px;
+	min-width: 300px;
 	display: flex;
     flex-direction: column;
     justify-content: center;

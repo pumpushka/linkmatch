@@ -6,7 +6,8 @@ body, html, main {
 }
 
 body {
-	font-family: Museo;
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Museo';*/
 	color: #ecf0f1;
 	font-weight: 300;
 }
@@ -29,15 +30,15 @@ a {
 	text-decoration: none;
 }
 
-@font-face {
+/*@font-face {
 	font-family: Museo;
-	src: url("../fonts/Museo.otf") format("opentype"),
-		 url("../fonts/Museo-0.otf") format("opentype"),
-		 url("../fonts/Museo-1.otf") format("opentype"),
-		 url("../fonts/Museo-2.otf") format("opentype"),
-		 url("../fonts/Museo-3.otf") format("opentype");
+	src: url("../fonts/Museo.otf") format('embedded-opentype'),
+		 url("../fonts/Museo-0.otf") format('embedded-opentype'),
+		 url("../fonts/Museo-1.otf") format('embedded-opentype'),
+		 url("../fonts/Museo-2.otf") format('embedded-opentype'),
+		 url("../fonts/Museo-3.otf") format('embedded-opentype');
 
-}
+}*/
 
 
 .top-container {
