@@ -74,19 +74,23 @@
 
 @media screen and (max-width: 1010px) {
 
-.header_menu {
-	display: inline-block;
-	position: absolute;
-	top: 20px;
-	right: 0;
-	padding-right: 10px;
-}
+	.header_menu {
+		display: inline-block;
+		position: absolute;
+		top: 20px;
+		right: 0;
+		padding-right: 10px;
+	}
 
 }
 
 @media screen and (max-width: 550px) {
 
-.side-menu {
-		width: 220px;
-}
+	.side-menu {
+			width: 220px;
+	}
+
+	.side-menu-item_link {
+		padding: 10px 0px;
+	}
 }
