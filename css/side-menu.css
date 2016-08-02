@@ -91,6 +91,7 @@
 	}
 
 	.side-menu-item_link {
-		padding: 10px 0px;
+		padding: 5px 0px;
+		font-size: 12px;
 	}
 }
