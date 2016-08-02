@@ -186,17 +186,51 @@
 	}
 
 	.ats-logos-cont {
-		width: 70px;
+		width: 40%;
 	}
 
 	
 	.intro-title_main {
 		font-size: 3.2em;
-		}
+	}
+
+	.intro {
+		margin-left: 40px;
+	}
+
+	.linkedin-anim {
+		margin-left: 60px;
+    	margin-right: 40px;
+	}
+
+	.linkmatch-working-gif img {
+		max-width: 100%;
+	}
 }
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1380px) {
+	.intro {
+		padding: 40px; 
+	}
+
+	.intro > * {
+		padding-bottom: 30px;
+	}
+
+	.intro-title-main {
+		font-size: 2.4em;
+		font-weight: 500;
+	} 
+
+	.linkedin-anim {
+		max-width: 600px;
+	}
+
+}
+
+
+/*@media screen and (max-width: 1280px) {
 	.intro {
 		width: 80%;
 		margin: 0px;
@@ -213,10 +247,10 @@
 		margin: 25px;
 	}
 
-}
+}*/
 
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1100px) {
 	
 	.header-icons-group {
 		position: fixed;
@@ -230,13 +264,53 @@
 	.icon-social {
 		margin-bottom: 10px;
 		padding-right: 0px;
+	}
+
+	.intro-title-main {
+		font-size: 2.0em;
+		font-weight: 500;
+	} 
+
+	.intro {
+		padding: 30px ; 
+	}
+
+	.button_link {
+		font-size: 1.1em;
 	}	
+
+	.header {
+		padding-bottom: 110px;
+	}
 }
 
 
 
 
 @media screen and (max-width: 1010px) {
+
+	.intro {
+		width: 80%;
+		margin: 0px;
+	}
+
+	.intro-title-main {
+		font-size: 2.5em;
+		font-weight: 500;
+	} 
+
+	.header-top-cont {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin: 0px auto;
+	}
+
+	.linkedin-anim {
+		margin: 25px;
+	}
+
+
 	.nav {
 	display: none;
 	}
@@ -281,17 +355,18 @@
 	}
 
 	.button_link {
-		font-size: 1.5em;
+		font-size: 1.1em;
 		padding: 10px 20px;
-	}
-
-	.linkmatch-working-gif img {
-		max-width: 100%;
 	}
 }
 
 
 @media screen and (max-width: 600px) {
+
+	.header {
+		padding-bottom: 80px;
+	}
+
 	.header-inner {
 		width: 100%;
 	}
@@ -324,6 +399,10 @@
 	.ats-logos-cont-logo {
 		padding: 10px; 
 	} 
+
+	.tips {
+		font-size: 1.0em;
+	}
 
 	.lm-try-btn {
 		display: none;	

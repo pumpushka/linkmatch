@@ -15,7 +15,7 @@
 	color: #0000ee;
 }
 
-p {
+.privacy-main p {
 	text-align: justify;
 	line-height: 1.5em;
     word-spacing: 3px;
@@ -23,7 +23,7 @@ p {
     text-indent: 30px;
 }
 
-ol {
+.privacy-main ol {
     /*list-style: disc;*/
     padding-left: 1em;
     font-size: 18px;
@@ -43,15 +43,15 @@ ol {
 		font-size: 1.4em;
 	}
 
-	h2 {
+	.privacy-main h2 {
 		font-size: 1.2em;
 	}
 
-	ol {
+	.privacy-main ol {
 		font-size: 16px;
 	}
 
-	p {
+	.privacy-main p {
 		font-size: 16px;
 	}
 }
