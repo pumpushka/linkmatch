@@ -2,6 +2,25 @@ body {
 	background-color: #ecf0f1;
 }
 
+.header-about {
+	width: 100%;
+	background-color: #2d414c;
+	
+}
+
+.header-inner-about {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 25px 10px 25px 10px;
+}
+
+.nav-about {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 90px;
+}
+
 .about-main {
 	width: 75%;
 	font-family: Roboto;

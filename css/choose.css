@@ -54,6 +54,7 @@
 .bpm_btn:hover {
 	background-color:  #0072b3;
 	transition: .7s;
+	
 }
 
 .ats-button-cont_btn {
@@ -72,7 +73,10 @@
 	cursor: pointer;
 	color : black;
 }
-
+ 
+.ats-button-cont_link:hover {
+	color: white; 
+} 
 
 
 .ats-item {
