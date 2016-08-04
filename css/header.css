@@ -17,7 +17,8 @@
 }
 
 .company-logo {
-	height: 29px; 
+	height: 29px;
+	padding-bottom: 3px; 
 }
 
 .header-icons-group {
@@ -36,6 +37,7 @@
 .icon-social {
 	line-height: normal !important;
 	padding-right: 1.3em;
+	color: #ecf0f1;
 }
 
 
@@ -48,7 +50,6 @@
 	font-size: 1.0em;
 	font-weight: 100;
 	letter-spacing: 1px;
-	padding-bottom: 3px;
 	padding-left: 60px;
 } 
 
@@ -92,7 +93,11 @@
 }
 
 .intro > * {
-	padding-bottom: 40px;
+	padding-bottom: 30px;
+}
+
+.intro .button {
+	padding-bottom: 0px;
 }
 
 .intro-title {
@@ -101,8 +106,10 @@
 } 
 
 .intro-title-main {
-	font-size: 2.7em;
-	font-weight: 500;
+	font-size: 2.5294117647058822rem;
+    line-height: 2.823529411764706rem;
+    font-weight: 500;
+    text-align: left;
 } 
 
 .linkedin-anim {
@@ -130,8 +137,9 @@
 
 
 
-.button_link{
-    color: white;  
+.button{
+	display: flex;
+	justify-content: flex-start;
 }
 
 .button_link:hover {
@@ -141,30 +149,28 @@
 }
 
 
-
 .button_link {
+	display: block;
 	max-width: 370px;
     text-align: center;
-    font-size: 1.5em;
     border-radius: 5px;
-    margin: 0 auto;
     padding: 18px 34px;
     color: white;
-    background-color: #f69321;
+    background-color: #f1c40f;
     transition: 0.7s;
+    font-size: 1.7647058823529411rem;
+    line-height: 2.0588235294117645rem;
+    font-weight: 200; 
 } 
 
 .tips {
-	font-size: 1.1em;
+	font-size: 1.1764705882352942rem;
+    line-height: 1.6470588235294117rem;
+	text-align: left;
 	font-weight: 100;
-	text-align: center;
 }
 
 
-
-.row {
-	text-align: center;
-}
 
 
 .linkmatch-working-gif {
