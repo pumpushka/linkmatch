@@ -1,6 +1,10 @@
 .header {
-	background-color: #00a388;
-	padding: 20px 0px 170px 0px;
+	min-height: 100%;
+    background-image: url("../img/backg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+	padding: 20px 0px 110px 0px;
 }
 
 .header_terms {
@@ -9,16 +13,17 @@
 }
 
 .header-inner {
-	width: 95%;
+	width: 65%;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-around;
 	align-items: flex-end;
 	margin: 0 auto;
+	padding: 24px 0px 5px;
+	border-bottom: 2px solid white;
 }
 
 .company-logo {
 	height: 29px;
-	padding-bottom: 3px; 
 }
 
 .header-icons-group {
@@ -44,13 +49,15 @@
 	  /*navigation*/
 
 .nav {
+	width: 50%;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 	font-size: 1.0em;
 	font-weight: 100;
 	letter-spacing: 1px;
-	padding-left: 60px;
+	padding: 25px 0px;
+	margin: 0px auto;
 } 
 
 .nav-item{
@@ -175,7 +182,8 @@
 
 .linkmatch-working-gif {
 	border-radius: 3px;
-	width: 100%;
+	width: 600px;
+	height:  430px;
 }
 
 

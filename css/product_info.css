@@ -1,9 +1,11 @@
 
 .product-info {
-	width: 100%;
+	width: 70%;
 	background-color: #ecf0f1;
 	color: black;
-	padding: 120px 0px;
+	border-bottom: 2px solid grey;
+	margin: 0px auto;
+	padding: 100px 0px;
 
 }
 

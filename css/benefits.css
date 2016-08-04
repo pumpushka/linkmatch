@@ -1,6 +1,10 @@
 .benefits {
-	background-color: #4a4a4a;
-	padding: 120px 0px;
+	width: 70%;
+	background-color: #ecf0f1;
+	color: #808080;
+	border-bottom: 2px solid grey;
+	margin: 0px auto;
+	padding: 100px 0px;
 }
 
 .benefit-title {
@@ -15,7 +19,7 @@
 }
 
 .benefit-items {
-	width: 60%;
+	width: 70%;
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
@@ -24,18 +28,20 @@
 .benefit-item {
 	width: 30%;
 	height: 300px;
-    background-color: rgba(255,255,255,.12);
-    box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
     text-align: center;
     line-height: 1.9em;
     padding: 20px;
     margin: 0 20px;
 }
 
-.benefit-item-topline {
-	height: 20px;
-	background-color: hsla(6, 78%, 57%, 0.69);
-	margin: -20px -20px 20px -20px;
+.benefit-item:hover {
+	width: 30%;
+	height: 300px;
+	background-color: #d8efef;
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
+    transition: 0.7s;
+    padding: 20px;
+    margin: 0 20px;
 }
 
 .benefit-item-title_main {
@@ -51,6 +57,7 @@
 
 .benefit-item .fa {
 	font-size: 70px;
+	color: #4a8c8e;
 }
 
 

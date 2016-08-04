@@ -1,6 +1,10 @@
 .choose-ats	{
-	background-color: #34495e;
-	padding: 120px 0px;
+	width: 70%;
+	background-color: #ecf0f1;
+	color: black;
+	border-bottom: 2px solid grey;
+	margin: 0px auto;
+	padding: 100px 0px;
 }
 
 .choose-ats-title {
@@ -24,29 +28,29 @@
 
 .zoho_btn{
 	border: 2px solid #e2b913;
-    color:white;
 }
 
 .zoho_btn:hover {
 	background-color:  #e2b913;
-	transition: .7s; 
+	transition: .7s;
+	color : white;
 }
 
 .cats_btn {
 	border: 2px solid #f69212;
-	color: white;
 }
 
 .cats_btn:hover {
 	background-color:  #f69212;
 	transition: .7s;
+	color: white;
 	
 }
 
 .bpm_btn {
 	border: 2px solid #0072b3;
-	color: white;
 }
+
 .bpm_btn:hover {
 	background-color:  #0072b3;
 	transition: .7s;
@@ -65,20 +69,22 @@
 
 .ats-button-cont_link {
 	display: block;
-	color: white;
 	cursor: pointer;
+	color : black;
 }
 
 
 
 .ats-item {
+
 	max-width: 350px;
 	min-width: 300px;
 	display: flex;
     flex-direction: column;
     justify-content: center;
     height: 200px;
-    background-color: rgba(255,255,255,.05);
+    /*background-color: rgba(255,255,255,.05);*/
+    background-color: rgba(93, 86, 86, 0.05);
 	box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
 	padding: 20px;
 	margin: 20px;
