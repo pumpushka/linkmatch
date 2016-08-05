@@ -26,6 +26,11 @@
 	padding: 70px 70px;
 }
 
+.privacy-main h1,
+.privacy-main h2 {
+	text-align: center;
+}
+
 .privacy-main-title {
 	font-size: 1.8em;
 }

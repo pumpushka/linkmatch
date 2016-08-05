@@ -49,20 +49,26 @@
 	/*these makes youtube video responsive --end*/
 
 
+@media screen and (max-width: 1000px) {
+	.product-info {
+		width: 90%;
+	}
+}
+
 
 @media screen and (max-width: 750px) {
 	
-.product-video-title {
-	margin-bottom: 25px;
-}
+	.product-video-title {
+		margin-bottom: 25px;
+	}
 
-.product-video-title_main {
-	font-size: 1.8em;
-	margin-bottom: 18px;
-}
+	.product-video-title_main {
+		font-size: 1.8em;
+		margin-bottom: 18px;
+	}
 
-.product-video-title_submain {
-	font-size: 0.9em;
-}
+	.product-video-title_submain {
+		font-size: 0.9em;
+	}
 
 }	 

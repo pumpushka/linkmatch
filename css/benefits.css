@@ -86,6 +86,10 @@
 
 @media screen and (max-width: 1000px) {
 
+	.benefits {
+		width: 90%;
+	}
+
 	.benefit-item {
 		width: 40%;
 		margin: 15px;
@@ -103,7 +107,7 @@
 @media screen and (max-width: 930px) {
 
 	.benefit-items {
-		width: 50%;
+		width: 60%;
 		margin: 0px auto;
 		display: flex;
 		flex-direction: column;
@@ -132,13 +136,29 @@
 	}
 
 	.benefit-item {
-		margin: 15px;
+		margin: 15px 5px;
 	}
 
 	
 }
 
 @media screen and (max-width: 500px) {
+
+	.benefit-items {
+		width: 95%;
+		margin: 0px auto;
+	}
+
+	.benefit-item {
+		width: 100%;
+		margin: 10px 0px;
+	}
+
+	.benefit-item:hover {
+		width: 100%;
+		margin: 10px 0px;
+	}
+
 
 	.benefit-item .fa {
 		font-size: 55px;

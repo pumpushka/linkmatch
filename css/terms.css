@@ -27,6 +27,11 @@
 	padding: 70px 70px;
 }
 
+.terms-main h1,
+.terms-main h2 {
+	text-align: center;
+}
+
 .terms-main-title {
 	font-size: 1.8em;
 }

@@ -103,16 +103,28 @@
 
 @media screen and (max-width: 1000px) {
 	
+	.testimonials {
+		width: 90%;
+	}
+
 	.testim-items {
-		width: 70%;
-		display: flex;
-		flex-direction: column;
-		margin: 0 auto;
+		width: 90%;
 	}
 
 }
 
 @media screen and (max-width: 550px) {
+
+	.testim-item {
+    	display: flex;
+    	flex-direction: column;
+   		padding: 30px 0px;
+	} 
+
+	.testim-item-top {
+		padding-bottom: 25px;
+	}
+
 	.padd {
 		padding-top: 80px;
 		padding-bottom: 70px;
@@ -123,10 +135,7 @@
 @media screen and (max-width: 500px) {
 	
 	.testim-items {
-		width: 85%;
-		display: flex;
-		flex-direction: column;
-		margin: 0 auto;
+		width: 100%;
 	}
 
 }
