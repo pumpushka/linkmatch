@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/choose.css">
 	<link rel="stylesheet" type="text/css" href="./css/benefits.css">
 	<link rel="stylesheet" type="text/css" href="./css/testimonials.css">
+	<link rel="stylesheet" type="text/css" href="./css/partnerform.css">
 	<link rel="stylesheet" type="text/css" href="./css/footer.css">
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
@@ -34,8 +35,7 @@
 		<header id="home" class="header">
 			<div class="header-inner">
 				<div class="header-logo">
-					<!-- <img  class="company-logo" src="./img/linkmatch-logo-header.png" alt="LinkMatch"> -->
-					<span>Link</span>Match
+					<img  class="company-logo" src="./img/linkmatch-logo-header.png" alt="LinkMatch">
 				</div>
 				<div class="header-icons-group">
 					<a class="icon-social" href="">					
@@ -220,11 +220,29 @@
 
 		<section id="partnerform" class="partnerform">
 			<div class="partnerform-title">
-				<h1 class="partnerform-title-main"></h1>
+				<h1 class="partnerform-title-main">Apply for Partnership</h1>
 			</div>
-			<div class="partnerform-items">
-				
-			</div>
+			<form class="partnerform-form" method="post" action="#">
+								<div class="field">
+									<label for="name">Company name</label>
+									<input class="inp-text" type="text" name="name" id="name">
+								</div>
+								<div class="field">
+									<label for="name">Contact person name</label>
+									<input class="inp-text" type="text" name="name" id="name">
+								</div>
+								<div class="field">
+									<label for="email">Contact person email</label>
+									<input class="inp-email" type="email" name="email" id="email">
+								</div>
+								<div class="field">
+									<label for="message">Partnership description</label>
+									<textarea name="message" id="message" rows="4"></textarea>
+								</div>
+								<ul class="actions">
+									<li><input class="inp-subm" type="submit" value="Send Message"></li>
+								</ul>
+							</form>
 		</section>
 
 		<footer id="footer" class="footer">

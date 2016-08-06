@@ -36,7 +36,7 @@
 
 .testim-item {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 30px 0px;
 
 } 
@@ -46,7 +46,7 @@
 }*/
 
 .testim-item-top {
-    padding-right: 35px;
+	width: 95%;
     font-size: 18px;
     font-style: italic;
     line-height: 1.6;

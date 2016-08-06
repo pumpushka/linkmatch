@@ -11,6 +11,10 @@
 	padding: 25px 10px 25px 10px;
 }
 
+.header-logo {
+	padding-bottom: 10px;
+}
+
 .nav-terms {
 	display: flex;
 	justify-content: flex-start;
@@ -30,6 +34,7 @@
 .terms-main h1,
 .terms-main h2 {
 	text-align: center;
+	padding: 20px 0px;
 }
 
 .terms-main-title {

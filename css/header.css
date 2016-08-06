@@ -1,6 +1,6 @@
 .header {
 	min-height: 100%;
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/backg.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -23,15 +23,6 @@
 	height: 29px;
 }
 
-.header-logo {
-	font-size: 1.5em;
-    font-weight: 600;
-    letter-spacing: 3px;
-}
-
-.header-logo span {
-	color: #f67b52;
-}
 
 .header-icons-group {
 	display: flex;

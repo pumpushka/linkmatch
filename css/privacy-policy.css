@@ -11,6 +11,10 @@
 	padding: 25px 10px 25px 10px;
 }
 
+.header-logo {
+	padding-bottom: 10px;
+}
+
 .nav-priv {
 	display: flex;
 	justify-content: flex-start;
@@ -29,6 +33,7 @@
 .privacy-main h1,
 .privacy-main h2 {
 	text-align: center;
+	padding: 20px 0px;
 }
 
 .privacy-main-title {
