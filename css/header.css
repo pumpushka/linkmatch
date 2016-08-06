@@ -129,13 +129,13 @@
     padding: 10px;
 }
 
-.sepia {
+/*.sepia {
 	width: 100%;
     height: 100%;
     position: absolute;
     left: 0px;
     background-color: rgba(100, 65, 65, 0.05);
-}
+}*/
 
 .ln-logo {
 	max-width: 100%;
@@ -199,11 +199,12 @@
 
 
 
-.linkmatch-working-gif {
+.anim-gif {
 	max-width: 100%;
     border-radius: 2px;
 	
 }
+
 
 
 @media screen and (max-width: 1690px) {
@@ -237,13 +238,10 @@
     	margin-right: 40px;
 	}
 
-	.linkmatch-working-gif img {
+	.anim-gif {
 		max-width: 100%;
 	}
 
-	.ln-logo img {
-		max-width: 100%;
-	}
 }
 
 
@@ -261,9 +259,6 @@
 		font-weight: 500;
 	} 
 
-	/*.linkmatch-working-gif {
-		max-width: 650px;
-	}*/
 
 	.nav-item{
 		padding-right: 0em;
@@ -336,14 +331,6 @@
 	.header {
 		padding-bottom: 110px;
 	}
-/*
-	.linkmatch-working-gif {
-		max-width: 540px;
-	}
-
-	.ln-logo {
-		max-width: 140px;
-	}*/
 }
 
 
@@ -377,15 +364,6 @@
 	.linkedin-anim {
 		margin: 25px;
 	}
-
-	/*.linkmatch-working-gif {
-		max-width: 600px;
-	}*/
-/*
-	.ln-logo {
-		max-width: 150px;
-	}*/
-
 
 	.nav {
 	display: none;
@@ -489,5 +467,21 @@
 
 	}
 
+}
+
+
+@media screen and (max-width: 430px) {
+	.intro-title-main {
+		font-size: 1.8em;
+		padding-top: 20px;
+	}
+
+	.linkedin-anim {
+   		padding: 0px;
+	}
+
+	.intro {
+		min-width: 290px;
+	}
 }
 
