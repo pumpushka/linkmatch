@@ -127,6 +127,7 @@
     background-color: rgba(255,255,255,.05);
     box-shadow: 7px 7px 7px 7px rgba(0,0,0,.1);
     padding: 10px;
+    margin-left: 60px;
 }
 
 /*.sepia {
@@ -137,29 +138,6 @@
     background-color: rgba(100, 65, 65, 0.05);
 }*/
 
-.ln-logo {
-	max-width: 100%;
-	position: absolute;
-    bottom: -48px;
-    left: -48px;
-    z-index: 10;
-}
-
-.ats-logos-cont {
-	width: 80%;
- 	display: flex;
- 	justify-content: space-around;
- 	align-items: center;
- 	margin: 0 auto;
-}
-
-.ats-logos-cont-logo {
-	padding-right: 30px; 
-}
-
-.ats-logos-cont .ats-logos-cont-logo:last-child {
-	padding-right: 0px;
-}
 
 
 
@@ -217,10 +195,6 @@
 @media screen and (max-width: 1500px) {
 	.header-top-cont {
 		width: 100%;
-	}
-
-	.ats-logos-cont {
-		width: 40%;
 	}
 
 	
@@ -298,7 +272,7 @@
 	
 	.header-icons-group {
 		position: fixed;
-		top: 80px;
+		top: 90px;
 		right: 0px;
 		display: flex;
 		flex-direction: column;
@@ -445,18 +419,6 @@
 	.intro-title-submain {
 	  	font-size: 2.0em;
 	 } 
-
-
-	.ats-logos-cont {
-		width: 100%;
-	 	display: flex;
-		flex-direction: column;
-	 	margin: 0 auto;
-	}
-
-	.ats-logos-cont-logo {
-		padding: 10px; 
-	} 
 
 	.tips {
 		font-size: 1.0em;
