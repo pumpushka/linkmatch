@@ -487,9 +487,16 @@
 
 @media screen and (max-width: 340px) {
 
-	.linkedin-anim {
-   		display: none;
+
+	.anim-gif {
+		width: 270px;
+		height: 160px;
 	}
+
+	.link-In {
+		width: 70px; 
+	}
+
 
 	.header-top-cont {
 		padding-top: 75px;
