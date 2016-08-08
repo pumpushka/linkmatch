@@ -443,4 +443,13 @@
 	}
 }
 
+@media screen and (max-width: 400px) {
 
+	.linkedin-anim {
+   		display: none;
+	}
+
+	.header-top-cont {
+		padding-top: 75px;
+	}
+}
