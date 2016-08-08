@@ -96,6 +96,7 @@
 	background-color: rgba(255,255,255,.05);
 	box-shadow: 0 5px 7px 0 rgba(0,0,0,.1);
 	padding: 50px; 
+	margin-right: 80px;
 }
 
 .intro > * {
@@ -127,10 +128,15 @@
     background-color: rgba(255,255,255,.05);
     box-shadow: 7px 7px 7px 7px rgba(0,0,0,.1);
     padding: 10px;
-    margin-left: 60px;
+    /*margin-left: 60px;*/
 }
 
-
+.link-In {
+	z-index: 10;
+	position: absolute;
+	bottom: -30px;
+	left: -35px;
+}
 
 
 .button{
@@ -176,13 +182,18 @@
 }
 
 
-
 @media screen and (max-width: 1690px) {
 	.header-top-cont {
 		width: 90%;
 	}
 
+	.link-In {
+		width: 170px; 
+	}
+
 }
+
+
 
 @media screen and (max-width: 1500px) {
 	.header-top-cont {
@@ -200,12 +211,15 @@
 	}
 
 	.linkedin-anim {
-		margin-left: 60px;
     	margin-right: 40px;
 	}
 
 	.anim-gif {
 		max-width: 100%;
+	}
+
+	.link-In {
+		width: 165px; 
 	}
 
 }
@@ -224,6 +238,10 @@
 		font-size: 2.4rem;
 		font-weight: 500;
 	} 
+
+	.link-In {
+		width: 150px;
+	}
 
 
 	.nav-item{
@@ -245,7 +263,7 @@
 	}
 
 	.button_link {
-   		font-size: 1.3647058823529411rem;
+   		font-size: 1.3rem;
      
 	} 
 
@@ -257,6 +275,10 @@
 		font-size: 1.0rem;
     }
 
+    .link-In {
+		width: 140px;
+	}
+
     .nav {
     	width: 65%;
     }
@@ -264,7 +286,7 @@
 }
 
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1125px) {
 	
 	.header-icons-group {
 		position: fixed;
@@ -296,6 +318,10 @@
 
 	.button_link {
 		font-size: 1.1em;
+	}
+
+	.link-In {
+		width: 110px; 
 	}	
 
 	.header {
@@ -335,6 +361,10 @@
 		margin: 25px;
 	}
 
+	.link-In {
+		width: 165px; 
+	}
+
 	.nav {
 		display: none;
 	}
@@ -353,6 +383,10 @@
 
 	.ln-logo {
 		max-width: 140px;
+	}
+
+	.link-In {
+		width: 135px; 
 	}
 
 
@@ -385,6 +419,10 @@
 	.button_link {
 		font-size: 1.1em;
 		padding: 10px 20px;
+	}
+
+	.link-In {
+		width: 110px; 
 	}
 }
 
@@ -428,7 +466,7 @@
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 440px) {
 	.intro-title-main {
 		font-size: 1.8em;
 		padding-top: 20px;
@@ -441,9 +479,13 @@
 	.intro {
 		min-width: 290px;
 	}
+
+	.link-In {
+		width: 85px; 
+	}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 360px) {
 
 	.linkedin-anim {
    		display: none;
