@@ -59,6 +59,13 @@
 
 
 
+@media screen and (max-width: 1015px) {
+
+	.nav-terms {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 550px) {
 	.terms-main {
 		font-weight: normal;

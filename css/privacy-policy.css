@@ -59,7 +59,12 @@
     word-spacing: 3px;
 }
 
+@media screen and (max-width: 1015px) {
 
+	.nav-priv {
+		display: none;
+	}
+}
 
 @media screen and (max-width: 550px) {
 	.privacy-main {
