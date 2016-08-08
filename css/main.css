@@ -8,6 +8,7 @@ body, html, main {
 body {
 	font-family: 'Museo';
 	color: white;
+	background-color: #ecf0f1;
 	font-weight: 300;
 }
 
@@ -15,7 +16,7 @@ h1, h2, h3, h4, h5 {
 	margin: 0px; 
 }
 
-header, nav, footer, section, article, div {
+header, nav, footer, section, article, div,label,input,textarea {
     box-sizing: border-box;
 }
 

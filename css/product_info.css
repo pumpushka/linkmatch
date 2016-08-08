@@ -1,9 +1,11 @@
 
 .product-info {
-	width: 100%;
+	width: 70%;
 	background-color: #ecf0f1;
-	color: black;
-	padding: 120px 0px;
+	color: grey;
+	border-bottom: 2px solid grey;
+	margin: 0px auto;
+	padding: 100px 0px;
 
 }
 
@@ -24,7 +26,7 @@
 }
 
 .product-video-cont {
-	width: 60%;
+	width: 75%;
     margin: 0px auto;
 }
 	/*these makes youtube video responsive --start*/
@@ -47,20 +49,34 @@
 	/*these makes youtube video responsive --end*/
 
 
+@media screen and (max-width: 1000px) {
+	.product-info {
+		width: 90%;
+	}
+
+	.product-video-cont {
+		width: 80%;
+	}
+}
+
 
 @media screen and (max-width: 750px) {
 	
-.product-video-title {
-	margin-bottom: 25px;
-}
+	.product-video-cont {
+		width: 90%;
+	}
 
-.product-video-title_main {
-	font-size: 1.8em;
-	margin-bottom: 18px;
-}
+	.product-video-title {
+		margin-bottom: 25px;
+	}
 
-.product-video-title_submain {
-	font-size: 0.9em;
-}
+	.product-video-title_main {
+		font-size: 1.8em;
+		margin-bottom: 18px;
+	}
+
+	.product-video-title_submain {
+		font-size: 0.9em;
+	}
 
 }	 

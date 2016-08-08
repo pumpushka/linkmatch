@@ -1,6 +1,7 @@
 .footer {
 	width: 100%;
-	background-color: #4a4a4a;
+	background-color: #ecf0f1;
+	color: grey;
 }
 
 .contact-cont-top {
@@ -69,6 +70,7 @@
 }
 
 .copyright-item {
+	color: white;
 	padding-right: 20px;
 	padding-left: 10px;
 	border-right: 2px solid #ecf0f1;

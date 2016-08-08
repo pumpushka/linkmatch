@@ -2,13 +2,40 @@ body {
 	background-color: #ecf0f1;
 }
 
-.about-main {
-	width: 75%;
+.wrapper {
+	width: 100%;
 	font-family: Roboto;
 	background-color: #ecf0f1;
 	color: #444;
 	font-weight: normal;
-	padding: 70px 70px;
+}
+
+.header-about {
+	width: 100%;
+	background-color: #2d414c;
+	
+}
+
+.header-inner-about {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 25px 10px 25px 10px;
+}
+
+.header-logo {
+	padding-bottom: 10px;
+}
+
+.nav-about {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 90px;
+}
+
+.about-main {
+	width: 75%;
+	padding: 70px 70px 30px;
 	margin: 0px auto;
 }
 
@@ -26,9 +53,10 @@ body {
 }
 
 .about-row {
-	width: 90%;
+	width: 80%;
 	display: flex;
 	justify-content: center;
+	padding-bottom: 50px;
 	margin: 0px auto;
 }
 
@@ -39,6 +67,13 @@ body {
 
 .about-row-item-avatar {
 	border-radius: 100px;
+}
+
+@media screen and (max-width: 1015px) {
+
+	.nav-about {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -62,21 +97,27 @@ body {
 	.about-main h3 {
 		font-size: 14px;
 	}
-}
 
-
-@media screen and (max-width: 830px) {
 	.about-main {
 		font-weight: normal;
-		padding: 70px 15px;
+		padding: 70px 15px 15px;
 	}
 
 	.about-row {
-	width: 90%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 0px auto;
+		width: 95%;
+	}
+}
+
+
+@media screen and (max-width: 680px) {
+	
+
+	.about-row {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0px auto;
 	}
 
 	.about-main p {

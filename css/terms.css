@@ -1,3 +1,27 @@
+.header-terms {
+	width: 100%;
+	background-color: #2d414c;
+	
+}
+
+.header-inner-terms {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 25px 10px 25px 10px;
+}
+
+.header-logo {
+	padding-bottom: 10px;
+}
+
+.nav-terms {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 90px;
+}
+
+
 .terms-main {
 	width: 100%;
 	font-family: Roboto;
@@ -5,6 +29,12 @@
 	color: #444;
 	font-weight: normal;
 	padding: 70px 70px;
+}
+
+.terms-main h1,
+.terms-main h2 {
+	text-align: center;
+	padding: 20px 0px;
 }
 
 .terms-main-title {
@@ -28,6 +58,13 @@
 }
 
 
+
+@media screen and (max-width: 1015px) {
+
+	.nav-terms {
+		display: none;
+	}
+}
 
 @media screen and (max-width: 550px) {
 	.terms-main {
