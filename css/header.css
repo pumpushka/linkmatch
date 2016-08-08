@@ -130,14 +130,6 @@
     margin-left: 60px;
 }
 
-/*.sepia {
-	width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0px;
-    background-color: rgba(100, 65, 65, 0.05);
-}*/
-
 
 
 
@@ -243,6 +235,10 @@
 
 @media screen and (max-width: 1280px) {
 	
+	.header-top-cont {
+		padding-top: 50px;
+	}
+
 	.intro {
 		min-width: 400px;
 		padding: 25px;
@@ -446,4 +442,5 @@
 		min-width: 290px;
 	}
 }
+
 
